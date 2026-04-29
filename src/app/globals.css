@@ -5,6 +5,18 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-crimson: #7a1c1c;
+  --color-crimson-dark: #5a1414;
+  --color-crimson-soft: #a33a3a;
+  --color-offwhite: #e7e5e4;
+  --color-offwhite-dim: #d6d3d1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
